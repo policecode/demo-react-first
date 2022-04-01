@@ -1,0 +1,66 @@
+.hearder {
+    background-image: linear-gradient(#000428, #004e92)
+}
+.hearder_background {
+    position: relative;
+}
+
+.hearder_background img {
+    width: 100%;
+    height: 400px;
+}
+
+.hearder_body {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hearder_avatar {
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.hearder_avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.hearder_information {
+    color: #fff;
+    margin-left: 20px;
+}
+.hearder_information h1 {
+    font-size: 32px;
+}
+.hearder_line {
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+.hearder_oclock {
+    color: #fff;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 740px) {
+    .hearder_body {
+        flex-direction: column;
+    }
+    .hearder_information {
+        margin: 20px 0;
+    }
+    .hearder_oclock {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

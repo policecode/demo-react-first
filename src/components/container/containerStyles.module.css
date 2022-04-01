@@ -1,0 +1,349 @@
+.mt_4 {
+    margin-top: 10px;
+}
+.mt_8 {
+    margin-top: 20px;
+}
+.font_size_friend {
+    font-size: 18px !important;
+}
+.container {
+    background-image: linear-gradient(#000428, #004e92);
+    color: #fff;
+    padding: 10px;
+}
+.introduce_border {
+    border-right: 1px solid rgb(218, 217, 217);
+}
+.introduce_content {
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.introduce_list {
+    list-style: none;
+    letter-spacing: 1px;
+}
+.introduce_item {
+    padding: 7px 12px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s linear;
+}
+.introduce_item a {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+    display: block;
+}
+
+.introduce_item.active, .introduce_item.active:hover {
+    background-color: rgba(35, 116, 225, 0.2);
+}
+.introduce_item.active a {
+    color: #2374E1;
+}
+
+.introduce_item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.view {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.view_list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+.view_item {
+    display:flex;
+    padding: 15px 0;
+    color: rgb(209, 209, 209);
+    align-items: center;
+}
+.view_item a {
+    text-decoration: none;
+    color: rgb(209, 209, 209);;
+}
+.view_item a:hover {
+    text-decoration: underline;
+}
+.view_item:last-child > div > p {
+    font-size: 16px;
+}
+.view_item > i {
+    display: block;
+    width: 40px;
+    color:rgb(133, 133, 133);
+    font-size: 22px;
+}
+.view_icon {
+    margin-left: auto;
+}
+.view_icon i {
+    margin-left: 24px;
+    font-size: 20px;
+}
+.view_icon i:last-child {
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 50%;
+    padding: 6px;
+}
+.view_content {
+
+}
+.view_matop {
+    margin-bottom: 20px;
+}
+.view_addJob {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #2374E1;
+}
+.view_addJob:hover p {
+    text-decoration: underline;
+}
+.view_addJob i {
+    margin-right: 20px;
+    border: 2px solid #2374E1;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 16px;
+}
+.view_avatar {
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.view_avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+.view_textSize {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.friend_hearder {
+
+}
+.friend_hearder_top {
+    display: flex;
+    align-items: center;
+}
+.friend_first {
+    font-size: 24px;
+    font-weight: 700;
+    flex-grow: 1;
+}
+.friend_first a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.friend_last {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.friend_last_img {
+    display: flex;
+    justify-content: flex-end;
+}
+.friend_search {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 6px 10px;
+    border-radius: 15px;
+}
+.friend_search i {
+    margin-right: 10px;
+    z-index: 10;
+    color: #999
+}
+.friend_search input {
+    outline: none;
+    background-color: transparent;
+    width: 85%;
+    height: 100%;
+    color: #fff;
+}
+.friend_search input::placeholder {
+    color: rgb(202, 202, 202);
+}
+.friend_search input:focus::placeholder {
+    color: rgb(155, 155, 155);
+}
+.friend_vltn {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;
+    color:#2374E1;
+}
+.friend_last_img .friend_vltn {
+    margin-right: 20px;
+}
+.friend_vltn a {
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+.friend_vltn a:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.friend_icon {
+
+}
+.friend_icon i {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.friend_icon i:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.friendAvatar {
+    display: flex;
+    align-items: center;
+}
+.friendAvatar_border {
+    display: flex;
+    align-items: center;
+
+}
+.friendAvatar_img {
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.friendAvatar_img img {
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 10px;
+}
+.friendAvatar_name {
+
+}
+.friendAvatar_name p {
+    font-size: 16px;
+    color: #999;
+}
+.friendAvatar_nav {
+    margin-left: auto;
+    margin-right: 100px;
+}
+.seeMore {
+    text-align: center;
+}
+.seeMore span {
+    cursor: pointer;
+    background-color: rgba(51, 51, 51, 0.4);
+    padding: 5px 15px;
+}
+
+.image_size {
+    width: 109%;
+    cursor: pointer;
+}
+
+.album_create {
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.4);
+    border-radius: 10px;
+    position: relative;
+}
+.video_create {
+    color: #999;
+    font-size: 16px;
+}
+.album_create:hover .video_create {
+    text-decoration: underline;
+}
+.album_icon {
+    position: absolute;
+    font-size: 16px;
+    top: 6px;
+    right: 6px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgba(51, 51, 51, 0.6);
+}
+.album_plus {
+    font-size: 28px;
+    color: #999;
+}
+.album_create img {
+    width: 100%;
+    height: 100%;
+}
+.album_create + h2 {
+    font-weight: 500;
+    margin: 10px 0 0 10px;
+}
+.album_create + h2 + p {
+    margin: 0 0 0 10px;
+    font-size: 16px;
+}
+.video_time {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    right: 10px;
+    bottom: 10px;
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 992px) {
+    .friendAvatar_nav {
+        margin-right: 60px;
+    }
+    .image_size {
+        width: 100%;
+    }
+}
+@media (max-width: 740px) {
+    .view_item > p {
+        font-size: 18px;
+    }
+    .view_icon {
+        display: flex;
+        align-items: center;
+    }
+    .friendAvatar_img {
+        max-width: 50px;
+        max-height: 50px;
+       
+    }
+    .friend_vltn {
+        display: none;
+    }
+    .friendAvatar_name h2{
+        font-size: 18px;
+    }
+    .friendAvatar_name p {
+        font-size: 14px;
+    }
+    .friendAvatar_nav {
+        margin-right: 20px;
+    }
+    .image_size {
+        width: 100%;
+    }
+}
