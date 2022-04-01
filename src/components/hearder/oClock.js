@@ -7,9 +7,18 @@ function Oclock() {
        const [clock, setClock] = useState();
        setInterval(() => {
             var timeOut = new Date();
-            const hh = timeOut.getHours();
-            const mm = timeOut.getMinutes();
-            const ss = timeOut.getSeconds();
+            let hh = timeOut.getHours();
+            if (hh < 10) {
+                hh = '0' + hh
+            }
+            let mm = timeOut.getMinutes();
+            if (mm < 10) {
+                mm = '0' + mm
+            }
+            let ss = timeOut.getSeconds();
+            if (ss < 10) {
+                ss = '0' + ss
+            }
             setClock(`${hh}:${mm}:${ss}`)
        }, 1000)
     return (
